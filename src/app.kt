@@ -115,4 +115,24 @@ fun main() {
 //    }while (pass != "qwerty")
 //
 //    println("Доступ разрешен")
+
+
+    //шаг 6
+//    val st = "hello world my code Kotlin"
+//    val words = st.split("")
+//    println(words)
+
+//    val st = "hello world, my code Kotlin"
+//    val words = st.split(",")
+//    for (i in words) {
+//        println(i)
+//    }
+
+//    val nq = "world!qwe%wqe&"
+//    val wor = nq.split("!","%","&")
+//    println(wor)
+//    for (i in wor){
+//        println(i)
+//    }
+
 }
