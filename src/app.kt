@@ -1,3 +1,6 @@
+import kotlin.random.Random
+import kotlin.random.nextInt
+
 fun main() {
 //    println("Запишите первое число")
 //    val num1 = readln().toInt()
@@ -135,4 +138,116 @@ fun main() {
 //        println(i)
 //    }
 
+//     val name =  "Иванов Ваня"
+//     val pd = name.split(" ")
+//    val hj = pd[0]
+//    val jk = pd[1]
+//    println("Фамилия $hj . Имя $jk")
+
+
+//    println("Введите числа через пробел")
+//    val num = readln()
+//    val num2 = num.split(" ")
+//    var sum = 0
+//    for (i in num2){
+//        sum += i.toInt()
+//    }
+//    println("Сумма $sum")
+
+
+    //калькулятор
+//    println("Введите первое число, знак операции, и второе число через пробел  ")
+//    val input = readln().split(" ")
+//    val symbol = input[1]
+//    val num1 = input[0].toDouble()
+//    val num2 = input[2].toDouble()
+//    var sum = 0.0
+//    when (symbol){
+//        "/" -> sum = num1 / num2
+//        "*" -> sum = num1 * num2
+//        "+" -> sum = num1 + num2
+//        "-" -> sum = num1 - num2
+//        else -> println("Не правильный ввод")
+//    }
+//    println("$num1 $symbol $num2 = $sum")
+
+    //шаг 8
+//    println(Random.nextLong())
+//    println(Random.nextFloat())
+//    println(Random.nextDouble())
+
+//    println(Random.nextLong(until = 100)) //чсла до 100
+//    println(Random.nextInt(from = 1 , until = 200)) // числа с 1 до 200 можно
+//    println(Random.nextDouble(until = 100.0))
+
+
+    //игра
+//    val number = Random.nextInt(from = 1, 100)
+//    println("Угадайте число от 1 до 100")
+//
+//
+//    while (true){
+//        println("Введи число ")
+//        val input = readln().toInt()
+//        when{
+//            input > number -> println("Число меньше")
+//            input < number -> println("Число больше")
+//            else -> {
+//                println("Поздравляю вы угадали слова $number")
+//                break
+//            }
+//        }
+//    }
+
+//    val dice1 = Random.nextInt(1,7)
+//    val dice2 = Random.nextInt(1, 7)
+//    val sum = dice1 + dice2
+//    println("Первый кубик $dice1")
+//    println("Второй кубик $dice2")
+//    println("Сумма $sum")
+
+    //шаг 9
+
+//    val part1 = arrayOf("Опытный", "Безумный" , "Легендарный", "Скрытный", "Гагачад")
+//    val part2 = arrayOf("Стрелок", "Геймер", "Воин", "Волшебник" , "Трейдир")
+//    val part3 = arrayOf("из ксго" ,"на максималках" ,"из будущего" ,"в бане у гербина" ,"с проклятом лутом")
+//    val rand1 = (Math.random() * part1.size).toInt()
+//    val rand2 = (Math.random() * part2.size).toInt()
+//    val rand3 = (Math.random() * part3.size).toInt()
+//    val rt = "${part1[rand1]}, ${part2[rand2]}, ${part3[rand3]}"
+//    println(rt)
+
+    //САМОСТОЯТЕЛЬНЫЕ ЗАДАНИЯ
+    //1 ЗАДАНИЯ
+
+//    val number = Random.nextInt(from = 1, 50)
+//    println("Угадайте число от 1 до 50")
+//
+//
+//    while (true){
+//        println("Введи число ")
+//        val input = readln().toInt()
+//        when{
+//            input > number -> println("Число меньше")
+//            input < number -> println("Число больше")
+//            else -> {
+//                println("Поздравляю вы угадали слова $number")
+//                break
+//            }
+//        }
+//    }
+
+    //2 Задания
+    val sum : Int = 0
+    println("Напишите сроку любую")
+    val input = readln()
+    val array = " 'A', 'E', 'I', 'O', 'U' "
+    if (input == array){
+
+        println("Нашли ")
+    }
+
+
+    val le = (input.length)
+    println("Длина строки $le")
 }
