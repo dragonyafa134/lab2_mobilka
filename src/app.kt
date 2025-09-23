@@ -237,17 +237,36 @@ fun main() {
 //        }
 //    }
 
-    //2 Задания
-    val sum : Int = 0
-    println("Напишите сроку любую")
-    val input = readln()
-    val array = " 'A', 'E', 'I', 'O', 'U' "
-    if (input == array){
+    //3 задания
+//    println("Введите число")
+//    var num = readln().toInt()
+//    while (num<= 1){
+//        println(num)
+//        num = num+1
+//    }
 
-        println("Нашли ")
-    }
+    //4 Задания
+
+//    val lowerCase = ('a'..'z').toList()
+//    val upperCase = ('A'..'Z').toList()
+//    val digits = ('0'..'9').toList()
+//    val special = "!@#$%^&*()_+-=[]{}|;:',.<>?/`~".toList()
+//
+//    val itog = lowerCase + upperCase + digits + special
+//
+//    val pass = Random.nextInt(8, 17)
+//
+//    val passw = StringBuilder() //изменяет последовательность
+//
+//    for (i in 0 until pass) {
+//        val randomIndex = Random.nextInt(itog.size)
+//        passw.append(itog[randomIndex])
+//    }
+//
+//    println("Сгенерированный пароль: $passw")
+
+    //5 задания
 
 
-    val le = (input.length)
-    println("Длина строки $le")
+
 }
