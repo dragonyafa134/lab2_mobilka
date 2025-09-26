@@ -1,3 +1,4 @@
+import java.io.Console
 import kotlin.random.Random
 import kotlin.random.nextInt
 
@@ -266,7 +267,100 @@ fun main() {
 //    println("Сгенерированный пароль: $passw")
 
     //5 задания
+//    println("Введите имя ")
+//    val name = readln()
+//    println("-----Тест-----")
+//    println("Как у вас дела?")
+//    val sosto = readln().toString()
+//    if (sosto == "Нормально"){
+//        println("Хорошего дня")
+//    }else{
+//        println("Главное с вами все в порядке!")
+//    }
+//    println("5+5 = ?")
+//    val nu = readln().toInt()
+//    if (nu == 10){
+//        println("Правильно")
+//    }else{
+//        println("Нет увы")
+//    }
+//    println("5*5")
+//    val n1 = readln().toInt()
+//    if (n1 == 25){
+//        println("Правильно")
+//    }else{
+//        println("Нет увы")
+//    }
+//    val d = listOf("Вы крутой", "Хорошая работа" )
+//    val r = d[Random.nextInt(d.size)]
+//
+//    println("---Вывод----")
+//    println("Ваше имя ${name}")
+//    println("У вас дела ${sosto}")
+//    println("5+5 = ${nu} - это у вас так")
+//    println("5*5 = ${n1} - это к вас так")
+//    println(r)
 
+    //6 задания
+//    print("Введите число  n")
+//    val num = readln().toInt()
+//    var sum = 0
+//    for (i in 1..num){ //ИЛИ num * (num + 1) / 2
+//        sum += i
+//    }
+//    print(sum)
 
+    //7 задания
+//    var sum = 0
+//    var r = 0
+//
+//    while (r < 10) {
+//        r++
+//        val n = Random.nextInt(1, 7)
+//        sum += n
+//
+//        println("Бросок $r: Выпало $n (Текущая сумма: $sum)")
+//    }
+//    println("Сумма: $sum")
 
+    //8 задания
+//    val num1 = Random.nextInt(0..6)
+//    val num2 = Random.nextInt(0..6)
+//    val num3 = Random.nextInt(0..6)
+//    println("Числа  ${num1}, ${num2}, ${num3}")
+//    if (num1 == num2 && num2 == num3){
+//        println("Джекопот!")
+//    }else{
+//        println("эх")
+//    }
+
+    //9 задания
+//    var b = Random.nextInt(100, 1001)
+//    println("Баланс: $b рублей")
+//    while (b > 0) {
+//        val w = Random.nextInt(10, 101)
+//        println("Сегодня снято: $w рублей")
+//        if (w > b) {
+//            println("Недостаточно средств для снятия $w рублей. Остаток: $b рублей.")
+//            break
+//        }
+//        b -= w
+//        println("Остаток на счету: $b рублей\n")
+//    }
+//    println("Все деньги на счету закончились.")
+
+    //10 задания
+//    val days= arrayOf("Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье")
+//    val tem = arrayOf(7)
+//
+//    for (i in days.indices) { // позволяет получить диапазон всех возможных индексов (искала в инете)
+//        tem[i] = Random.nextInt(-10, 31)
+//        println("${days[i]}: ${tem[i]}°C")
+//    }
+//    println("Дни с температурой ниже нуля:")
+//    for (i in days.indices) {
+//        if (tem[i] < 0) {
+//            println(days[i])
+//        }
+//    }
 }
